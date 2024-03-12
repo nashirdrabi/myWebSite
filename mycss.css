@@ -116,6 +116,7 @@ body {
 
     padding: 40px;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     width: 100%-80px;
 
@@ -126,17 +127,32 @@ body {
 .logo {
     /* margin-left: 30%; */
     height: 100px;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100px;
     background-size: cover;
 }
 
 .MySkills p {
-    color: black;
-    padding: 20px;
+    color: gray;
+    padding: 18px;
     text-align: center;
     font-size: 26px;
     font-weight: 200;
+}
+
+.projects p {
+    color: black;
+    text-align: center;
+}
+
+.projectsHeading {
+    color: #002D62;
+    padding-top: 50px;
+    text-align: center;
+    margin: 0;
+
 }
 
 .MySkills h1 {
@@ -152,12 +168,6 @@ body {
     background-color: white;
 }
 
-.projects h1 {
-    padding-top: 50px;
-    text-align: center;
-    margin: 0;
-    color: black;
-}
 
 .flutter {
     flex: 1;
