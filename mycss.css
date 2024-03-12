@@ -91,13 +91,10 @@ body {
 }
 
 .bottom {
-
     clear: both;
-
     background-color: #002D62;
     height: 80px;
     width: 100%-40px;
-
 }
 
 
@@ -108,4 +105,32 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
     color: white;
+}
+
+.MySkills {
+    width: 100%;
+    margin: 0;
+    height: 800px;
+    background-color: whitesmoke;
+}
+
+.projects {
+    width: 100%;
+    margin: 0;
+    height: 800px;
+    background-color: white;
+}
+
+.projects h1 {
+    padding-top: 50px;
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+
+.MySkills h1 {
+    padding-top: 50px;
+    text-align: center;
+    margin: 0;
+    color: black;
 }
