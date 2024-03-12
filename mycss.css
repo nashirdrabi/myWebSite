@@ -1,0 +1,106 @@
+.myNavBar {
+    box-shadow: 10px 10px;
+    background-color: #002D62;
+    width: 100%-42px;
+    padding: 20px 20px 20px 20px;
+    height: 6vh;
+
+    /* height: 10%; */
+
+}
+
+.description {
+    font-weight: 400;
+    font-size: 28;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: "Rubik", sans-serif;
+    width: 100%;
+}
+
+.myNavBar a {
+
+    color: white;
+    padding-left: 50px;
+}
+
+.nameDiv {
+    width: 50%;
+    display: inline;
+}
+
+.nameDiv .name {
+    display: inline;
+    font-weight: 400;
+    color: white;
+}
+
+.links {
+    margin-left: 55%;
+    display: inline;
+    color: antiquewhite;
+    width: 20%;
+}
+
+.landing {
+    background-color: white;
+    height: 100vh;
+    width: 100%-40px;
+    padding: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+.landing .bodyName {
+    color: #002D62;
+}
+
+.hello {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.designation {
+    font-size: 30px;
+}
+
+.landing .imglaptop {
+    float: left;
+    background-size: cover;
+    height: 700px;
+    width: 50%;
+    object-fit: cover;
+}
+
+.companyName {
+    color: #002D62;
+}
+
+.bottom {
+
+    clear: both;
+
+    background-color: #002D62;
+    height: 80px;
+    width: 100%-40px;
+
+}
+
+/* .content {
+    width: 80%;
+    color: black;
+    font-weight: 400;
+    margin-left: 20px;
+    padding: 40px;
+} */
+
+.bottom h5 {
+    padding: 30px 40px 20px 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+}
