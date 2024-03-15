@@ -96,9 +96,11 @@ body {
 }
 
 .bottom {
+
     clear: both;
     background-color: #002D62;
     height: 80px;
+
     width: 100%-40px;
 }
 
@@ -164,7 +166,7 @@ body {
 .projects {
     width: 100%;
     margin: 0;
-    height: 800px;
+    height: 1000px;
     background-color: white;
 }
 
@@ -193,4 +195,43 @@ body {
     text-align: center;
     /* margin: 0; */
     color: #002D62;
+}
+
+.projectsGrid {
+    height: 800px;
+    display: grid;
+    padding: 50px;
+
+    grid-template-rows: repeat(4, 400px);
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gridItems p {
+    color: white;
+    font-size: 16px;
+}
+
+.gridItems h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.gridItems {
+    padding: 20px;
+    /* width: 100px; */
+    background-color: #002D62;
+}
+
+.gridItems img {
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.projectsDescription {
+    font-size: 18px;
+    padding: 50px;
+    text-align: center;
 }
