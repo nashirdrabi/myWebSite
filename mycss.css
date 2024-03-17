@@ -166,7 +166,7 @@ body {
 .projects {
     width: 100%;
     margin: 0;
-    height: 1000px;
+    /* height: 1000px; */
     background-color: white;
 }
 
@@ -208,11 +208,12 @@ body {
 }
 
 .gridItems p {
-    color: white;
+    color: black;
     font-size: 16px;
 }
 
 .gridItems h1 {
+    color: black;
     font-size: 18px;
     text-align: center;
 }
@@ -220,7 +221,7 @@ body {
 .gridItems {
     padding: 20px;
     /* width: 100px; */
-    background-color: #002D62;
+    background-color: whitesmoke;
 }
 
 .gridItems img {
